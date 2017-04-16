@@ -5,6 +5,10 @@
 ```bash
 $ dotnet new console -o app1
 ```
+add below to .csproj xml
+```xml
+    <RuntimeIdentifiers>osx.10.11-x64</RuntimeIdentifiers>
+```
 * Gathering Dependencies
 ```bash
 dotnet restore -r osx.10.10-x64
