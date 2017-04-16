@@ -1,4 +1,3 @@
-
 ### Scaffhold,build,publish .net core app
 ```bash
 $ dotnet new console -o app1
@@ -12,4 +11,16 @@ $ ~/app2/app1
 >More Info 
 >https://docs.microsoft.com/en-us/dotnet/articles/core/rid-catalog 
 >Ex:    <RuntimeIdentifiers>osx.10.11-x64</RuntimeIdentifiers>
+
+### Dockerizing Standalone Application
+```bash
+$ cat Dockerfile
+FROM ubuntu/latest
+cd ~/app2
+MKDIR /opt/app
+COPY ~/app2 /opt/app/
+RUN /opt/app/app1
+```
+
+
 
