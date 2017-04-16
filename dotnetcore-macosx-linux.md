@@ -1,5 +1,3 @@
-* Intro
-
 ```bash
 $ dotnet new console -o app1
 $ dotnet restore -r osx.10.10-x64
