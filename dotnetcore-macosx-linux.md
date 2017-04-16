@@ -10,6 +10,6 @@ $ ~/app2/app1
 
 PS: Key thing here is before running dotnet restore make sure RuntimeIdentifier is set in .csproj file.
 More Info 
-https://docs.microsoft.com/en-us/dotnet/articles/core/rid-catalog
+https://docs.microsoft.com/en-us/dotnet/articles/core/rid-catalog __
 Ex:    <RuntimeIdentifiers>osx.10.11-x64</RuntimeIdentifiers>
 
