@@ -5,7 +5,7 @@
   * Visual Studio Code ( using omni pascal Extension)
 
 
-# How to build Lazarus on Macosx
+# How to build Lazarus on Macosx (Using Cocoa)
 
 ```
 mkdir laz-build 
