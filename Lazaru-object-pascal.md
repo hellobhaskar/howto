@@ -18,11 +18,12 @@ rm -rf ~/.lazrus/
 # How to build Lazarus on Linux(Using Qt5)
 
 QT5 bindings for lazarus dependent on library called libqt5pas. This is present in lazarus/lcl/interfaces/qt5/cbindings
-but require some handholding to compile without any issues
+but require some handholding to compile without any issues.
 
 on fedora28 i had to install below packages
 ```
-qt5-qtx11extras-devel
+dnf install -y qt5-qtx11extras-devel
+qmake-qt5 all
 ```
 
 
