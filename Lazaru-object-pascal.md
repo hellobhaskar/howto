@@ -16,6 +16,12 @@ rm -rf ~/.lazrus/
 ```
 
 # How to build Lazarus on Linux(Using Qt5)
+on fedora i had to install below packages
+```
+qt5-qtx11extras-devel
+```
+
+
 ```
 mkdir laz-build 
 cd laz-build
