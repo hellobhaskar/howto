@@ -24,8 +24,9 @@ on fedora28 i had to install below packages
 ```
 dnf install -y qt5-qtx11extras-devel
 qmake-qt5 all
+make install
 ```
-
+this should install libqt5pas.so.1 in /usr/lib directory. then we can proceed for actual code compilation of lazarus main ide.
 
 ```
 mkdir laz-build 
